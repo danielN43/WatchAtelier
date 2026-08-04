@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function contact() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -24,11 +25,11 @@ export default function contact() {
 
               <div>
                 <h3 className="text-yellow-500 font-semibold">
-                  📍 Адрес
+                  🗺️ Адрес
                 </h3>
-                <p className="text-gray-300">
-                  ТУК НАПИШИ АДРЕСА
-                </p>
+                <Link href="https://maps.app.goo.gl/SgRyhTKnjBgL3HL99" className="text-gray-300">
+                  Стария град, Район Централен, ул. „Отец Паисий“ 7, 4000 Пловдив
+                </Link>
               </div>
 
               <div>
@@ -36,7 +37,7 @@ export default function contact() {
                   📞 Телефон
                 </h3>
                 <p className="text-gray-300">
-                  +359 XXX XXX XXX
+                  +359 88 754 2257
                 </p>
               </div>
 
@@ -57,7 +58,7 @@ export default function contact() {
                   Понеделник - Петък
                 </p>
                 <p className="text-gray-300">
-                  10:30 - 18:3  0
+                  10:30 - 18:30
                 </p>
               </div>
 
