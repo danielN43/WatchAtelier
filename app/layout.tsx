@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Watches",
-  description: "Premium Watch Store",
+  title: "Часовникар",
+  description: "Часовникарско ателие",
 };
 
 export default function RootLayout({
