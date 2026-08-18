@@ -10,7 +10,9 @@ export default function Hero() {
         </h1>
 
         <p className="text-zinc-400 mt-5 text-xl">
-          Най-добрите марки часовници на едно място.(слоган)
+          Ремонти и реставрации
+          Наследство ,традиция и опит
+          Часовникар Хачо Нерсесян
         </p>
 
         <Link href="/services"
