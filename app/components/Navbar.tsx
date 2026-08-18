@@ -12,10 +12,10 @@ export default function Navbar() {
         <div className="flex gap-8">
           <Link href="/">Начало</Link>
           <Link href="/about">За нас</Link>
-          <Link href="/watches">Часовници</Link>
           <Link href="/services">Услуги</Link>
+          <Link href="/repair">Ремонт и подръжка</Link>
           <Link href="/contact">Контакти</Link>
-
+          <Link href="/watchshop">Магазин</Link>
         </div>
 
       </div>

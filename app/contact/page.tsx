@@ -52,13 +52,14 @@ export default function contact() {
 
               <div>
                 <h3 className="text-yellow-500 font-semibold">
-                  🕒 Работно време
+                  🕒 Работно време с клиенти:
                 </h3>
                 <p className="text-gray-300">
-                  Понеделник - Петък
+                  От понеделник до петък
                 </p>
                 <p className="text-gray-300">
-                  10:30 - 18:30
+                  от 10:30 до 13:30
+                  от 15:30 до 18:30
                 </p>
               </div>
 
