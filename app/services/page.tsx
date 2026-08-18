@@ -2,27 +2,30 @@ export default function ServicesPage() {
   const services = [
     {
       name: "Смяна на батерия",
-      description: "Подмяна на батерия от 1,5V, 3V и капацитатор(solar/kenetik/eco-drive).Избор от швейцарски, японски и китайски батерии."
+      description:
+        "Подмяна на батерии от 1,5V, 3V и кондензатори (Solar / Kinetic / Eco-Drive). Избор от швейцарски, японски и китайски батерии.",
     },
     {
       name: "Смяна на каишка",
-      description: "Избор на каишка от естествена и еко кожа, силикон и текстил."
+      description:
+        "Избор на каишка от естествена и еко кожа, силикон и текстил.",
     },
     {
       name: "Смяна или регулиране на верижка",
-      description: "Премахване или добавяне на звена"
+      description: "Премахване или добавяне на звена.",
     },
     {
       name: "Смяна на стъкло",
-      description: "Подмяна на стандартно или формено стъкло"
+      description: "Подмяна на стандартно или формено стъкло.",
     },
     {
-      name: "Смяна други",
-      description: "Смяна на патент, коронка, тока, гайка, уплътнение."
+      name: "Смяна на други части",
+      description:
+        "Смяна на патент, коронка, тока, гайка и уплътнение.",
     },
     {
       name: "Оценка на часовник",
-      description: "Консултация за автентичността на часовника."
+      description: "Консултация за автентичността на часовника.",
     },
   ];
 
@@ -31,7 +34,7 @@ export default function ServicesPage() {
       <div className="max-w-7xl mx-auto px-6 py-20">
 
         <h1 className="text-5xl font-bold text-center mb-4">
-          Услуги и цени
+          Услуги
         </h1>
 
         <p className="text-center text-gray-400 mb-14">
@@ -39,7 +42,6 @@ export default function ServicesPage() {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
           {services.map((service, index) => (
             <div
               key={index}
@@ -54,11 +56,15 @@ export default function ServicesPage() {
               </p>
             </div>
           ))}
-
         </div>
 
+        <p className="text-center text-gray-400 text-sm mt-14 max-w-4xl mx-auto">
+          Ателието не носи отговорност за часовника при смяна на батерията.
+          Водоустойчивостта може да бъде нарушена поради стареене на
+          уплътненията.
+        </p>
+
       </div>
-      <p>Ателието не носи отговорност за часовника при смяна на батиерията. Водоустойчивостта се нарушава поради стареена на уплътненията. </p>
     </div>
   );
-}
+} 

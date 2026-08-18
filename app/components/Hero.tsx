@@ -11,9 +11,13 @@ export default function Hero() {
 
         <p className="text-zinc-400 mt-5 text-xl">
           Ремонти и реставрации
-          Наследство ,традиция и опит
-          Часовникар Хачо Нерсесян
+          
+          
         </p>
+        <p className="text-zinc-400 mt-5 text-xl">
+          Наследство ,традиция и опит
+        </p>
+        <p className="text-zinc-400 mt-5 text-xl">Часовникар Хачо Нерсесян</p>
 
         <Link href="/services"
           className="mt-8 inline-block bg-yellow-500 px-8 py-3 rounded-lg text-black font-bold hover:scale-105 transition"

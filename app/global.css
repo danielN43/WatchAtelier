@@ -1,6 +1,24 @@
 @import "tailwindcss";
 
-body{
-    background:#000;
-    color:white;
+body {
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+label {
+  font-family: Arial, sans-serif;
+}
+button,
+.btn {
+  @apply inline-block mt-8 bg-yellow-500 px-8 py-3 rounded-lg text-black font-bold transition hover:scale-105 w-full text-center;   
 }

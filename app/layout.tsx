@@ -5,6 +5,9 @@ import Footer from "./components/Footer";
 export const metadata = {
   title: "Часовникарско ателие Нерсесян",
   description: "Ремонт и подръжка на часовници",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
