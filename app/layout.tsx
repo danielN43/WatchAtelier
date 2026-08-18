@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Часовникар",
-  description: "Часовникарско ателие",
+  title: "Часовникарско ателие Нерсесян",
+  description: "Ремонт и подръжка на часовници",
 };
 
 export default function RootLayout({
