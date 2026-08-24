@@ -219,7 +219,7 @@ export default function Contact() {
               {/* BUTTON */}
               <button
                 type="submit"
-                className="w-full bg-amber-500 text-black py-4 rounded-lg font-bold tracking-wide hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/10 transition duration-300"
+                className="btn"
               >
                 Изпрати съобщение
               </button>
