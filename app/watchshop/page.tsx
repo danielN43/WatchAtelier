@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WatchShop() {
   return (
-    <main className="min-h-screen bg-black text-white" pt-24 = "true">
+    <main className="min-h-screen bg-black text-white" pt-24   = "true">
 
       {/* HERO */}
       <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
@@ -54,11 +54,6 @@ export default function WatchShop() {
               Заповядайте при нас
             </h2>
 
-            <p className="text-zinc-400 text-lg leading-relaxed mb-6">
-              В нашия магазин ще откриете внимателно подбрани часовници
-              и професионално часовникарско обслужване.
-            </p>
-
             <p className="text-zinc-400 text-lg leading-relaxed">
               Можете да разгледате часовниците на място, да получите
               професионален съвет и да се доверите на нашия опит при
@@ -74,60 +69,6 @@ export default function WatchShop() {
               fill
               className="object-cover"
             />
-          </div>
-
-        </div>
-
-      </section>
-
-
-      {/* STORE GALLERY */}
-      <section className="border-y border-zinc-800 bg-zinc-950">
-
-        <div className="max-w-6xl mx-auto px-6 py-24">
-
-          <div className="text-center mb-14">
-
-            <p className="text-sm uppercase tracking-[0.3em] text-zinc-500 mb-4">
-              Ателието
-            </p>
-
-            <h2 className="text-3xl md:text-5xl font-serif font-bold">
-              Разгледайте магазина
-            </h2>
-
-          </div>
-
-
-          <div className="grid md:grid-cols-2 gap-6">
-
-  <div className="relative h-[350px] md:h-[500px] rounded-2xl overflow-hidden">
-    <Image
-      src="/atelier6.png"
-      alt="Часовникарско ателие"
-      fill
-      className="object-cover hover:scale-105 transition duration-700"
-    />
-  </div>
-
-
-
-            <div className="grid grid-rows-2 gap-6">
-
-              
-
-              <div className="relative h-[500px] rounded-2xl overflow-hidden">
-                <Image
-                  src="/atelier8.png"
-                  alt="Часовникарско ателие"
-                  fill
-                  sizes="100vw"
-                  className="object-cover hover:scale-105 transition duration-700"
-                />
-              </div>
-
-            </div>
-
           </div>
 
         </div>
@@ -216,7 +157,37 @@ export default function WatchShop() {
 
               <Image
                 src="/atelier4.png"
-                alt="Дамски часовник"
+                alt="Часовник"
+                fill
+                className="object-cover group-hover:scale-105 transition duration-500"
+              />
+
+            </div>
+
+          </div>
+
+          <div className="group">
+
+            <div className="relative aspect-square rounded-2xl overflow-hidden bg-zinc-900 mb-5">
+
+              <Image
+                src="/atelier8.png"
+                alt="Часовник"
+                fill
+                className="object-cover group-hover:scale-105 transition duration-500"
+              />
+
+            </div>
+
+          </div>
+
+          <div className="group">
+
+            <div className="relative aspect-square rounded-2xl overflow-hidden bg-zinc-900 mb-5">
+
+              <Image
+                src="/atelier6.png"
+                alt="Часовник"
                 fill
                 className="object-cover group-hover:scale-105 transition duration-500"
               />
